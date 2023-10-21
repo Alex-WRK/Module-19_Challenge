@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this data analysis project, we took a look at the world of cryptocurrency market data using a combination of K-Means clustering and Principal Component Analysis (PCA). My primary objective was to gain insights into the clustering patterns of cryptocurrencies based on various features. I utilized Jupyter notebook, along with popular libraries such as Pandas, Scikit-Learn, Matplotlib, and Holoviews, to perform this analysis.
+In this data analysis project, I took a look at the world of cryptocurrency market data using a combination of K-Means clustering and Principal Component Analysis (PCA). My primary objective was to gain insights into the clustering patterns of cryptocurrencies based on various features. I utilized Jupyter notebook, along with popular libraries such as Pandas, Scikit-Learn, Matplotlib, and Holoviews, to perform this analysis.
 
 ## Data Exploration
 
@@ -19,10 +19,9 @@ To prepare the data for clustering, I recognized the importance of scaling. Stan
 
 ### Principal Component Analysis (PCA)
 
-Our data comprised multiple features, some of which might have been correlated or redundant. I employed Principal Component Analysis (PCA) to reduce the dimensionality while preserving the most important information. Specifically:
+My data comprised multiple features, some of which might have been correlated or redundant. I employed Principal Component Analysis (PCA) to reduce the dimensionality while preserving the most important information. Specifically:
 
 - I applied PCA to the dataset, reducing it to three principal components (PC1, PC2, and PC3).
-- The choice of three components was made after a thorough evaluation of explained variances.
 
 ## Determining the Optimal Number of Clusters
 
